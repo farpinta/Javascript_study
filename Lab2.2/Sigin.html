@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <mata name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In Page</title>
+</head>
+
+<body>
+    <header>page header</header>
+
+    <main>
+        <h1>หน้า Sign In</h1>
+        <form action="/register" method="post">
+            <table>
+                <th>
+                <td>
+                    <div>
+                        <label for="fname">ชื่อ</label>
+                        <input type="text" id="fname" name="firstname">
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <label for="lname">สกุล</label>
+                        <input type="text" id="lname" name="lastname">
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <label for="reg-email">username</label>
+                        <input type="email" id="reg-email" name="username" placeholder="Email" required>
+                    </div>
+                </td>
+
+                <td>
+                    <div>
+                        <label for="reg-pwd">password</label>
+                        <input type="password" id="reg-pwd" name="password" placeholder="Password" required>
+                    </div>
+                </td>
+                </th>
+            </table>
+
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            </tr>
+            <br><br>
+            <a href="login.html">กลับไปหน้า login</a>
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>page footer <br>
+            <em>ที่อยู่ camt มช</em>
+        </p>
+        <!-- แผนที่ Google Maps -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3776.719002220491!2d98.94931817585098!3d18.8006520630044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a693998811f%3A0x6b772f9d863f69b5!2sCollege%20of%20Arts%2C%20Media%20and%20Technology!5e0!3m2!1sen!2sth!4v1700000000000!5m2!1sen!2sth"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        <br>
+        <a href="https://maps.google.com/?q=College+of+Arts,+Media+and+Technology" target="_blank">View larger map</a>
+    </footer>
+</body>
+
+</html>
